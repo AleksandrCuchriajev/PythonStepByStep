@@ -1,4 +1,4 @@
-# What is the output of this code?
+# Exercise 1. What is the output of this code?
 # Guess the output of each print statement!
 new_list = ['a', 'b', 'c']
 print(new_list[1])
@@ -16,4 +16,22 @@ my_list[0] = 'a'
 print(my_list)
 
 print(bonus)
+
+# Exercise 2. Using this list,
+basket = ["Banana", "Apples", "Oranges", "Blueberries"];
+
+# 1. Remove the Banana from the list
+basket.pop(0)
+# 2. Remove "Blueberries" from the list.
+basket.pop()
+# 3. Put "Kiwi" at the end of the list.
+basket.append("Kiwi")
+# 4. Add "Apples" at the beginning of the list
+basket.insert(0,"Apples")
+# 5. Count how many apples in the basket
+basket.count("Apples")
+# 6. empty the basket
+basket.clear()
+print(basket)
+
 
