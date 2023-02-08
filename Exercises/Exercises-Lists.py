@@ -27,11 +27,20 @@ basket.pop()
 # 3. Put "Kiwi" at the end of the list.
 basket.append("Kiwi")
 # 4. Add "Apples" at the beginning of the list
-basket.insert(0,"Apples")
+basket.insert(0, "Apples")
 # 5. Count how many apples in the basket
 basket.count("Apples")
 # 6. empty the basket
 basket.clear()
 print(basket)
 
+# Exercise 3. Fix this code so that it prints a sorted list of all of our friends (alphabetical).
+friends = ['Alex', 'Rick', 'John', 'Rendy']
 
+new_friend = ['Sam']
+
+print(friends.sort() + new_friend)
+
+# Solution: (there are multiple ways to do this, so your answer may vary)
+# friends.extend(new_friend)
+# print(sorted(friends))
