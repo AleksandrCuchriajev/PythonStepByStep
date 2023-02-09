@@ -9,3 +9,9 @@
 
 ### Python cheatsheet:
 #### Our Python cheatsheet is constantly updated. You are free to download and use it.
+
+### Python tools:
+#### Text editors: Sublime text, Visual Studio code.
+#### IDE: Spider, Pycharm, Visual Studio
+#### Command prompt/Terminal
+#### Notebooks: Jupiter notebook
