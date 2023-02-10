@@ -44,3 +44,11 @@ print(friends.sort() + new_friend)
 # Solution: (there are multiple ways to do this, so your answer may vary)
 # friends.extend(new_friend)
 # print(sorted(friends))
+
+# Exercise 4. You have a list:
+my_list = [1,2,3,4,5,6,7,8,9,10]
+# Count the integers in the list using the loop
+count=0
+for num in my_list:
+  count+=num
+print(count)
