@@ -1,0 +1,18 @@
+# Display the image below to the right-hand side where the 0 is going to be ' ',
+# and the 1 is going to be '*'. This will reveal an image!
+# Hint: use loops
+picture = [
+    [0, 0, 0, 1, 0, 0, 0],
+    [0, 0, 1, 1, 1, 0, 0],
+    [0, 1, 1, 1, 1, 1, 0],
+    [1, 1, 1, 1, 1, 1, 1],
+    [0, 0, 0, 1, 0, 0, 0],
+    [0, 0, 0, 1, 0, 0, 0]
+]
+for row in picture:
+    for pixel in row:
+        if pixel == 1:
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print("")  # need a new line for each row
