@@ -12,3 +12,7 @@ print(my_dict)
 example_dict = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
 my_dict = {k: v ** 2 for k, v in example_dict.items() if v % 2 == 0}
 print(my_dict)
+# Exercise 5. Create dictionary with squared values using for num in [1, 2, 3]. Print the dictionary
+# Example output: {'num1': 2, 'num2': 4, 'num3': 6}
+my_dict = {'num' + str(num): num*2 for num in [1, 2, 3]}
+print(my_dict)
