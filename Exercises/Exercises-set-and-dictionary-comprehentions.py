@@ -8,3 +8,7 @@ print(my_set)
 example_dict = {'a': 1, 'b': 2, 'c': 3}
 my_dict = {key: value ** 2 for key, value in example_dict.items()}
 print(my_dict)
+# Exercise 4. From example_dict create dictionary my_dict with even values squared. Print dictionary
+example_dict = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+my_dict = {k: v ** 2 for k, v in example_dict.items() if v % 2 == 0}
+print(my_dict)
