@@ -12,6 +12,6 @@
 
 ### Python tools:
 #### Text editors: Sublime text, Atom, Visual Studio code.
-#### IDE: Spider, Jetbrains Pycharm, Visual Studio, Thonny
+#### IDE: Spider, Jetbrains Pycharm Community, Visual Studio Community, Thonny
 #### Command prompt/Terminal
 #### Notebooks: Jupiter notebook
