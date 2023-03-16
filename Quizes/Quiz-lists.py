@@ -16,3 +16,6 @@ print(nums)
 # 0
 # 1
 # 2
+
+# Question 6: Lists can have multiple object types.
+# True or False
