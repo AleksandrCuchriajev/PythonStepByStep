@@ -19,7 +19,6 @@
 # Question 5. We have defined a dictionary as follows:
 # d = {"Vilnius": "Lithuania", "Berlin": "Germany"}
 # How do we access the first entry (Vilnius / Lithuania)?
-
 # print(d["Vilnius"])
 # print(d["Lithuania"])
 # print(d[0])
@@ -28,7 +27,6 @@
 # Question 6. We have defined a dictionary as follows:
 # d = {"Vilnius": "Lithuania", "Berlin": "Germany"}
 # How do you check if the entry (Vilnius / Lithuania) is contained in the Dictionary?
-
 # print(0 in d)
 # print("Vilnius" : "Lithuania" in d)
 # print("Vilnius" in d)
