@@ -17,4 +17,4 @@ print('Hello World'[6:11])
 # 'I like %s' %'apples'
 # 'I like {}'.format('apples')
 # Your solution should be entered on one line. You can not use variable names, only the strings themselves
-print('I like when {}'.format('Python rules!'))
+print("I'd like when Python {}!".format('rules'))
