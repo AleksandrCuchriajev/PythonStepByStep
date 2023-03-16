@@ -1,4 +1,9 @@
-# Exercise 1.
+# Exercise 1. Create a dictionary where all the keys are strings, and all the values are integers.
+# For example: {'Monday':19, 'Tuesday':20}
+# Just write the dictionary on a single line, don't assign a variable name to the dictionary.
+{'Alex':25,'Jane':35}
+
+# Exercise 2.
 # 1 Create a user profile for your new game. This user profile will be stored in a dictionary with keys:
 # 'age', 'username', 'weapons', 'is_active' and 'clan'
 user = {
