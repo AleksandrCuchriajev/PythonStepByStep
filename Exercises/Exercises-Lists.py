@@ -56,3 +56,9 @@ count=0
 for num in my_list:
   count+=num
 print(count)
+
+# Exercise 5. Create a list that contains at least one string, one integer and one float.
+# For example: [1, 'two', 3.14159] 
+# Note that the order and number of items doesn't matter. 
+# The answer should just be one list on a single line. Don't assign a variable name to the list.
+[1,2.5,'apple']
