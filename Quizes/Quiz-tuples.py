@@ -6,6 +6,7 @@
 
 # Question 3. Which of the following is a tuple?
 # (1,2,3)
+# (1,2,[1,2])
 # [1,2,3]
 # {1,2,3}
 # None of above
