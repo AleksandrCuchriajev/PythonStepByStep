@@ -3,3 +3,10 @@
 # For example, 'Hello World'[0]  returns 'H' 
 # You should only write one line of code for this. Do not assign a variable name to the string.
 "Hello World"[8]
+
+# Exercise 2. String Slicing
+# Use string slicing to grab the word 'World'  from 'Hello World' 
+# For example, print("introduction"[5:9])  returns 'duct' 
+# Remember that when slicing you only go up to but not including the end index.
+# You should only write one line of code for this. Do not assign a variable name to the string.
+print('Hello World'[6:11])
