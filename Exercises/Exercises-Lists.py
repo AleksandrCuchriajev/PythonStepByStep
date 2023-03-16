@@ -1,3 +1,7 @@
+# Exercise 0. How do you grab 2 from my_list=[1,1,[1,2]]?
+my_list=[1,1,[1,2]]
+print(my_list[2][1]
+
 # Exercise 1. What is the output of this code?
 # Guess the output of each print statement!
 new_list = ['a', 'b', 'c']
