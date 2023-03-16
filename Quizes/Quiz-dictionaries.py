@@ -1,10 +1,13 @@
-# Question 1 Which code defines a dictionary?
+# Question 1. Is this statement True or False? Dictionaries retain order and are a sequence.
+# True or False
+
+# Question 2. Which code defines a dictionary?
 # d= ["Vilnius": "Lithuania", "Berlin": "Germany"]
 # d= ("Vilnius": "Lithuania", "Berlin": "Germany")
 # d= {"Vilnius", "Lithuania", "Berlin", "Germany"}
 # d= {"Vilnius": "Lithuania", "Berlin": "Germany"}
 
-# Question 2 We have defined a dictionary as follows:
+# Question 3. We have defined a dictionary as follows:
 # d = {"Vilnius": "Lithuania", "Berlin": "Germany"}
 # How do we access the first entry (Vilnius / Lithuania)?
 
@@ -13,7 +16,7 @@
 # print(d[0])
 # print(d[1])
 
-# Question 3 We have defined a dictionary as follows:
+# Question 4. We have defined a dictionary as follows:
 # d = {"Vilnius": "Lithuania", "Berlin": "Germany"}
 # How do you check if the entry (Vilnius / Lithuania) is contained in the Dictionary?
 
