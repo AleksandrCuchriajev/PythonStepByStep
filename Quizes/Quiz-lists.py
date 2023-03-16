@@ -19,3 +19,9 @@ print(nums)
 
 # Question 6: Lists can have multiple object types.
 # True or False
+
+# Question 7: If my_list=['a','b','c'] What is the result of my_list[1:]?
+# 'b'
+# ['a','b']
+# ['b','c']
+# 'c'
