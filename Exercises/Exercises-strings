@@ -10,3 +10,11 @@
 # Remember that when slicing you only go up to but not including the end index.
 # You should only write one line of code for this. Do not assign a variable name to the string.
 print('Hello World'[6:11])
+
+# Exercise 3. Print Formatting
+# Write an expression using any of the string formatting methods we have learned (except f-strings, see note below) to return the phrase 'Python rules!' 
+# For example, these phrases both return 'I like apples' :
+# 'I like %s' %'apples'
+# 'I like {}'.format('apples')
+# Your solution should be entered on one line. You can not use variable names, only the strings themselves
+print('I like when {}'.format('Python rules!'))
