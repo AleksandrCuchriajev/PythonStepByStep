@@ -64,8 +64,12 @@ print(my_list)
 # Exercise 7. Reassign 'hello' in this nested list to say 'goodbye' instead:
 my_list = [1,2,[3,4,'hello']]
 my_list[2][2]='goodbye'
+print(my_list)
       
 # Exercise 8. Sort the list below:
 my_list = [5,3,4,6,1]
+# Method 1:
 my_list.sort()
 print(my_list)
+# Method 2:
+print(sorted(my_list))
