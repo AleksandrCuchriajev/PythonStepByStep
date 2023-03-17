@@ -4,7 +4,8 @@
 # Question 2. Tuples are Immutable.
 # True or False
 
-# Question 3. Which of the following is a tuple?
+
+# Question 3. How do you create a tuple?
 # (1,2,3)
 # (1,2,[1,2])
 # [1,2,3]
