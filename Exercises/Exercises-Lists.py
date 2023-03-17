@@ -12,24 +12,18 @@ print(my_list[2][1]
 # Guess the output of each print statement!
 new_list = ['a', 'b', 'c']
 print(new_list[1])
-
 print(new_list[-2])
-
 print(new_list[1:3])
-
 new_list[0] = 'm'
 print(new_list)
-
 my_list = [3, 4, 7]
 bonus = my_list + [8]
 my_list[0] = 'a'
 print(my_list)
-
 print(bonus)
 
 # Exercise 3. Using this list,
 basket = ["Banana", "Apples", "Oranges", "Blueberries"];
-
 # 1. Remove the Banana from the list
 basket.pop(0)
 # 2. Remove "Blueberries" from the list.
@@ -46,11 +40,8 @@ print(basket)
 
 # Exercise 4. Fix this code so that it prints a sorted list of all of our friends (alphabetical).
 friends = ['Alex', 'Rick', 'John', 'Rendy']
-
 new_friend = ['Sam']
-
 print(friends.sort() + new_friend)
-
 # Solution: (there are multiple ways to do this, so your answer may vary)
 # friends.extend(new_friend)
 # print(sorted(friends))
@@ -63,4 +54,18 @@ for num in my_list:
   count+=num
 print(count)
 
+# Exercise 6. Build this list [0,0,0] two separate ways.
+# Method 1:
+print([0]*3)
+# Method 2:
+my_list=[0,0,0]
+print(my_list)
 
+# Exercise 7. Reassign 'hello' in this nested list to say 'goodbye' instead:
+my_list = [1,2,[3,4,'hello']]
+my_list[2][2]='goodbye'
+      
+# Exercise 8. Sort the list below:
+my_list = [5,3,4,6,1]
+my_list.sort()
+print(my_list)
