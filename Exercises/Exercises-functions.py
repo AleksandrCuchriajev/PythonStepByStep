@@ -22,3 +22,14 @@ def myfunc(a):
         print('Goodbye')
 myfunc(True)
 myfunc(False)
+
+# Exercise 4. Define a function called myfunc that takes three arguments, x, y and z.
+# If z is True, return x.  If z is False, return y.
+# myfunc('Hello','Goodbye',False)
+# Output: 'Goodbye'
+def myfunc(x, y, z):
+    if z == True:
+        return x
+    return y
+print(myfunc('Hello', 'Goodbye', True))
+print(myfunc('Hello', 'Goodbye', False))
