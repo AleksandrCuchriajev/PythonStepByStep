@@ -50,3 +50,12 @@ print(myfunc(5,12))
 def is_even(num):
   return num%2==0
 print(is_even(15))
+
+# Exercise 7. Define a function called is_greater that takes in two arguments, and returns True if the first value
+# is greater than the second, False if it is less than or equal to the second.
+# Example;
+# is_greater(5,9)
+# Output: False
+def is_greater(num1,num2):
+  return num1>num2
+print(is_greater(5,9))
