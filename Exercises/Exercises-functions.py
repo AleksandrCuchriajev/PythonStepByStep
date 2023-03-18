@@ -43,3 +43,10 @@ def myfunc(num1,num2):
   return num1+num2
 print(myfunc(5,12))
 
+# Exercise 6. Define a function called is_even that takes in one argument, and returns True if the passed-in value is even, False if it is not.
+# Example:
+# is_even(15)
+# Output: False
+def is_even(num):
+  return num%2==0
+print(is_even(15))
