@@ -3,7 +3,8 @@ def myfunc():
   print('Hello World')
 
 # Exercise 2. Define a function called myfunc that takes in a name, and prints 'Hello Name' 
-# Do not use f-strings. Example: 
+# Do not use f-strings. 
+# Example: 
 # myfunc('Aleksandr')
 # Output: Hello Aleksandr
 def myfunc(name):
@@ -11,10 +12,9 @@ def myfunc(name):
 myfunc('Aleksandr')
 
 # Exercise 3. Define a function called myfunc that takes in a Boolean value (True or False). If True, return 'Hello', and if False, return 'Goodbye'
-# For example, a function that returns 'Inside' if a is True and 'Outside' if a is False could look like:
 # Example:
 # myfunc(False)
-# Output: 'Outside'
+# Output: 'Goodbye'
 def myfunc(a):
     if a:
         print('Hello')
@@ -34,3 +34,12 @@ def myfunc(x, y, z):
     return y
 print(myfunc('Hello', 'Goodbye', True))
 print(myfunc('Hello', 'Goodbye', False))
+
+# Exercise 5. Define a function called myfunc that takes in two arguments and returns their sum.
+# Example:
+# myfunc(5,12)
+# Output: 17
+def myfunc(num1,num2):
+  return num1+num2
+print(myfunc(5,12))
+
