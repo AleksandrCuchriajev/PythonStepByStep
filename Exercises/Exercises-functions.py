@@ -59,3 +59,10 @@ print(is_even(15))
 def is_greater(num1,num2):
   return num1>num2
 print(is_greater(5,9))
+
+# Exercise 8.  Define a function called is_even and return the list of even numbers from any list given, for example:
+# is_even([1,2,5,4,6,7,8,9,23,44])
+# Output [2, 4, 6, 8, 44]
+def is_even(my_list):
+    return [num for num in my_list if num % 2 == 0]
+print(is_even([1, 2, 8, 5, 4, 6, 7, 10, 9, 23, 44,100]))
