@@ -25,6 +25,7 @@ myfunc(False)
 
 # Exercise 4. Define a function called myfunc that takes three arguments, x, y and z.
 # If z is True, return x.  If z is False, return y.
+# Example: 
 # myfunc('Hello','Goodbye',False)
 # Output: 'Goodbye'
 def myfunc(x, y, z):
