@@ -66,3 +66,19 @@ print(is_greater(5,9))
 def is_even(my_list):
     return [num for num in my_list if num % 2 == 0]
 print(is_even([1, 2, 8, 5, 4, 6, 7, 10, 9, 23, 44,100]))
+
+# Exercise 9. Define a function called employee_of_the_month and get the tupple of employee of the month by working hours.
+# Use list of tupples work_hours = [('alex', 200), ('billy', 20345), ('sandra', 3444)]
+# Example:
+# employee_of_the_month(work_hours)
+# Output: ('billy', 20345)
+work_hours = [('alex', 200), ('billy', 20345), ('sandra', 3444)]
+def employee_of_the_month(work_hours):
+    employee_name = ''
+    current_max = 0
+    for name, hours in work_hours:
+        if hours > current_max:
+            employee_name = name
+            current_max = hours
+    return (employee_name, current_max)
+print(employee_of_the_month(work_hours))
