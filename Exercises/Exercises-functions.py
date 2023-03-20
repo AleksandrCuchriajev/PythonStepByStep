@@ -105,3 +105,32 @@ def myfunc(*args):
             even_list.append(item)
     return even_list
 print(myfunc(5, 6, 7, 8, 10, 20))
+
+# Exercise 12. Define a function called myfunc that takes in a string, and returns a matching
+# string where every even letter is uppercase, and every odd letter is lowercase. Assume that the 
+# incoming string only contains letters, and don't worry about numbers, spaces or punctuation. 
+# The output string can start with either an uppercase or lowercase letter, so long as letters alternate throughout the string.
+# Example: 
+# myfunc('Anthropomorphism')
+# Output: 'aNtHrOpOmOrPhIsM'
+def myfunc(word):
+    new_word = ''
+    count = 0
+    for letter in word:
+        count += 1
+        if count % 2 != 0:
+            new_word += letter.lower()
+        else:
+            new_word += letter.upper()
+    return new_word
+print(myfunc('Anthropomorphism'))
+# or
+def myfunc(a):
+    mixed_string = ""
+    for item in range(len(a)):
+        if item%2==0:
+            mixed_string+=a[item].lower();
+        else:
+            mixed_string += a[item].upper();
+    return mixed_string
+print(myfunc('Anthropomorphism'))
