@@ -90,3 +90,18 @@ print(employee_of_the_month(work_hours))
 def myfunc(*args):
   return sum(args)
 print(myfunc(5,6,7,8))
+
+# Exercise 11. Define a function called myfunc that takes in an arbitrary number of arguments, 
+# and returns a list containing only those arguments that are even.
+# myfunc(5, 6, 7, 8,10,20)
+# Output: [6, 8, 10, 20]
+def myfunc(*args):
+        return [args for args in args if args % 2 == 0]
+#or
+def myfunc(*args):
+    even_list=[]
+    for item in args:
+        if item%2==0:
+            even_list.append(item)
+    return even_list
+print(myfunc(5, 6, 7, 8, 10, 20))
