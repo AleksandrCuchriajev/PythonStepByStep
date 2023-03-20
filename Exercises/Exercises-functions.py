@@ -170,3 +170,9 @@ def myfunc(num1,num2):
 print(myfunc(20,10))
 print(myfunc(10,10))
 print(myfunc(2,5))
+
+# Exercise 16. Write a function myfunc that capitalizes the first and fourth letters of a name
+# Example:
+# myfunc('macclowd') --> MacClowd
+# Note: 'macclowd'.capitalize() returns 'Macclowd'
+
