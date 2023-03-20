@@ -82,3 +82,11 @@ def employee_of_the_month(work_hours):
             current_max = hours
     return (employee_name, current_max)
 print(employee_of_the_month(work_hours))
+
+# Exercise 10. Define a function called myfunc that takes in an arbitrary number of arguments, and returns the sum of those arguments.
+# Example:
+# myfunc(5,6,7,8)
+# Output: 26
+def myfunc(*args):
+  return sum(args)
+print(myfunc(5,6,7,8))
