@@ -158,3 +158,15 @@ def myfunc(text):
     return word_list[0][0] == word_list[1][0]
 print(myfunc('Anything Ana'))
 print(myfunc('Best Rest'))
+
+# Exercise 15. Write a function myfunc with two parameters. So, for given two integers, return True if the sum of the 
+# integers is 20 or if one of the integers is 20. If not, return False
+# Example:
+# myfunc(20,10) --> True
+# myfunc(10,10) --> True
+# myfunc(2,5) --> False
+def myfunc(num1,num2):
+  return num1+num2==20 or num1==20 or num2==20
+print(myfunc(20,10))
+print(myfunc(10,10))
+print(myfunc(2,5))
