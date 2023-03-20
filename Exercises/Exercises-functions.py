@@ -148,3 +148,13 @@ def myfunc(a, b):
 
 print(myfunc(4,6))
 print(myfunc(4,7))
+
+# Exercise 14. Write a function myfunc that takes a two-word string and returns True if both words begin with same letter
+# Example:
+# myfunc('Anything Ana') --> True
+# myfunc('Best Rest') --> False
+def myfunc(text):
+    word_list = text.split()
+    return word_list[0][0] == word_list[1][0]
+print(myfunc('Anything Ana'))
+print(myfunc('Best Rest'))
