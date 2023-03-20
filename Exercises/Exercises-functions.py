@@ -134,3 +134,17 @@ def myfunc(a):
             mixed_string += a[item].upper();
     return mixed_string
 print(myfunc('Anthropomorphism'))
+
+# Exercise 13. Write a function myfunc that returns the smallest of two given numbers if both numbers are even, 
+# but returns the greatest if one or both numbers are odd
+# Example:
+# myfunc(4,6) --> 4
+# myfunc(4,7) --> 7
+def myfunc(a, b):
+    if a % 2 == 0 and b % 2 == 0:
+        return min(a, b)
+    else:
+        return max(a, b)
+
+print(myfunc(4,6))
+print(myfunc(4,7))
