@@ -1,7 +1,6 @@
 # Exercise 1
-'''
-Given the below class: 
-'''
+# Given the below class: 
+
 class Friend:
     species = 'human'
     def __init__(self, name, age):
